@@ -1,4 +1,4 @@
-# MI PRIMERA APLICACION FLASK CON MI SENSEI
+# BASE DE APLICACION FLASK
 
 ## INSTALACION
 
@@ -44,3 +44,19 @@ SECRET_KEY=
 flask run --host=0.0.0.0 --port=5151
 ```
 
+### GESTION BASE DE DATOS
+
+## INICIAR BASE DE DATOS
+```
+python manage.py db init
+```
+
+## TOMAR FOTOGRAFIA ACTUAL DE LA BASE DE DATOS
+```
+python manage.py db migrate
+```
+
+## CARGAR FOTOGRAFIA A LA BASE DE DATOS
+```
+python manage.py db upgrade
+```
